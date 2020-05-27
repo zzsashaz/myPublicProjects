@@ -1,0 +1,14 @@
+@import "colors";
+@import "header/header";
+body {
+  background-color: $body-color;
+}
+a {
+  text-decoration: none;
+}
+li {
+  list-style-type: none;
+}
+@media (max-width: 1199px) and (min-width: 360px) {
+  @import "header/header-mobile";
+}
