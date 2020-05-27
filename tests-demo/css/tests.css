@@ -1,0 +1,83 @@
+body {
+  font-family: 'Montserrat', sans-serif; }
+
+.test-body {
+  width: 100%;
+  max-width: 1256px;
+  margin: 0 auto; }
+
+.question-number {
+  display: inline-block;
+  width: 25px;
+  height: 25px;
+  background-color: #7EE43F;
+  color: #ffffff;
+  text-align: center;
+  line-height: 28px;
+  border-radius: 50%;
+  margin-right: 20px;
+  font-size: 18px; }
+
+.question {
+  text-align: center;
+  font-size: 24px; }
+
+.content-separator {
+  background: -webkit-gradient(linear, left top, right top, from(rgba(248, 26, 106, 0.2)), to(#f81a6a));
+  background: -webkit-linear-gradient(left, rgba(248, 26, 106, 0.2), #f81a6a);
+  background: -o-linear-gradient(left, rgba(248, 26, 106, 0.2), #f81a6a);
+  background: linear-gradient(to right, rgba(248, 26, 106, 0.2), #f81a6a);
+  border: none;
+  height: 1px;
+  max-width: 1256px;
+  width: 100%; }
+
+.answers-body {
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto; }
+
+.answer {
+  width: 49%;
+  display: inline-block;
+  text-align: center;
+  font-size: 24px; }
+  .answer input {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    width: 18px;
+    height: 18px;
+    position: relative;
+    outline: none;
+    margin-right: 20px;
+    cursor: pointer; }
+  .answer input[type='radio']::before {
+    content: '';
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 18px;
+    height: 18px;
+    border-radius: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    background-color: white;
+    border: 2px solid #70CA38; }
+  .answer input[type='radio']:checked::after {
+    content: '';
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background: -webkit-gradient(linear, left top, right top, from(#BEF81B), to(#70CA38));
+    background: -webkit-linear-gradient(left, #BEF81B, #70CA38);
+    background: -o-linear-gradient(left, #BEF81B, #70CA38);
+    background: linear-gradient(to right, #BEF81B, #70CA38);
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    visibility: visible; }

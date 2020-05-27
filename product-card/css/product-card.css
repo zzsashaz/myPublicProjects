@@ -1,0 +1,29 @@
+body {
+  background: #ECEBEB;
+  margin: 0;
+  padding: 0;
+  font-family: 'Montserrat', sans-serif; }
+
+.productCard-body {
+  display: inline-block;
+  width: 300px;
+  height: 400px;
+  background: #fff;
+  margin: 0 10px 25px 10px;
+  text-align: center; }
+
+.productCard-photo {
+  margin: 17px 0 0 0; }
+
+.productCard-description {
+  font-size: 14px;
+  width: 250px;
+  margin: 10px auto; }
+
+.productCard-cost {
+  font-size: 18px;
+  font-weight: 500; }
+
+.productCard-like {
+  position: absolute;
+  margin-left: 16px; }
